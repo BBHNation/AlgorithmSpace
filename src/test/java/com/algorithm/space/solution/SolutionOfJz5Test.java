@@ -3,6 +3,8 @@ package com.algorithm.space.solution;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.EmptyStackException;
+
 class SolutionOfJz5Test {
 
   @Test
@@ -34,5 +36,17 @@ class SolutionOfJz5Test {
 
     // then
     Assertions.assertEquals(first, pop);
+  }
+
+  @Test
+  void pop_shouldThrowException_whenQueueIsEmpty() {
+    // given
+    SolutionOfJz5 solutionOfJz5 = new SolutionOfJz5();
+
+    // when
+    EmptyStackException exception = Assertions.assertThrows(EmptyStackException.class, solutionOfJz5::pop);
+
+    // then
+    Assertions.assertNotNull(exception);
   }
 }
