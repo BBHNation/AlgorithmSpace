@@ -1,4 +1,4 @@
-package com.algorithm.space;
+package main.java.com.algorithm.space;
 
 import java.io.BufferedReader;
 import java.io.IOException;

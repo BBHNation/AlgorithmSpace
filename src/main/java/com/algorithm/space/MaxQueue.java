@@ -1,4 +1,4 @@
-package com.algorithm.space;
+package main.java.com.algorithm.space;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -22,7 +22,7 @@ public class MaxQueue {
     public void push_back(int value) {
         //维护一个单调递减的双端队列，保证队首永远是max value
         //如果入队的元素大于双端队列队尾元素 则移除队尾元素
-        //双端队列里保存的是阶段性最大值
+        //双端队列里保存的是阶段性最大值 维护单调队列要用while
         while(!deque.isEmpty() && value > deque.peekLast()){
             deque.pollLast();
         }
