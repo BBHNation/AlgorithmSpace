@@ -3,8 +3,8 @@ package com.algorithm.space.solution;
 import java.util.Stack;
 
 public class SolutionOfJz5 {
-  private final Stack<Integer> stack1 = new Stack<Integer>();
-  private final Stack<Integer> stack2 = new Stack<Integer>();
+  private final Stack<Integer> stack1 = new Stack<>();
+  private final Stack<Integer> stack2 = new Stack<>();
 
   public void push(int node) {
     stack1.push(node);
