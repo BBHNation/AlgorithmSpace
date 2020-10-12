@@ -1,10 +1,10 @@
-package main.java.com.algorithm.space;
+package main.java.com.algorithm.space.solution;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class levelOrderII {
+public class Solution32II {
     //Definition for a binary tree node.
     public class TreeNode {
         int val;

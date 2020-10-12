@@ -1,4 +1,4 @@
-package main.java.com.algorithm.space;
+package main.java.com.algorithm.space.solution;
 
 import java.util.LinkedList;
 
@@ -8,7 +8,7 @@ import java.util.LinkedList;
  * 3. 然后判断滑动窗口的队首是否过期，每一轮遍历过期的索引为i-k，当队首索引等于i-k说明队首已经过期
  * 4. 最后判断遍历的位置是否已经开始可以计入最大值，当遍历位置从k-1开始记录窗口最大值
  */
-public class maxSlidingWindow {
+public class Solution59I {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if(nums.length == 0 || k < 1){
             return new int[0];

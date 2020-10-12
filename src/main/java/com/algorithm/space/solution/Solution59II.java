@@ -1,13 +1,13 @@
-package main.java.com.algorithm.space;
+package main.java.com.algorithm.space.solution;
 
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class MaxQueue {
+public class Solution59II {
     Queue<Integer> queue;
     Deque<Integer> deque;
-    public MaxQueue() {
+    public Solution59II() {
         queue = new LinkedList<Integer>();
         deque = new LinkedList<Integer>();
     }

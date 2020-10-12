@@ -1,9 +1,9 @@
-package main.java.com.algorithm.space;
+package main.java.com.algorithm.space.solution;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class levelOrder {
+public class Solution32I {
 
      //Definition for a binary tree node.
      public class TreeNode {
