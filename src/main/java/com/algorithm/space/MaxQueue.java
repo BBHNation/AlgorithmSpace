@@ -8,8 +8,10 @@ public class MaxQueue {
     Queue<Integer> queue;
     Deque<Integer> deque;
     public MaxQueue() {
+
         queue = new LinkedList<Integer>();
         deque = new LinkedList<Integer>();
+
     }
 
     public int max_value() {
