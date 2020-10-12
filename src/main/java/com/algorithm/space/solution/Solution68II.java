@@ -9,18 +9,19 @@ public class Solution68II {
     }
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        while(true){
-            if(root.val < p.val && root.val < q.val){
-                root = root.right;
-            }else if(root.val > p.val && root.val > q.val){
-                root = root.left;
-            }else if(root.val == p.val){
-                return p;
-            }else if(root.val == q.val){
-                return q;
-            }else{
-                return root;
-            }
+        if(root == null || root == p || root == q){
+            return root;
+        }
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        if(left == null && right == null){
+            return null;
+        }else if(left != null && right == null){
+            return left;
+        }else if(left == null && right != null){
+            return right;
+        }else{
+            return root;
         }
     }
 }
