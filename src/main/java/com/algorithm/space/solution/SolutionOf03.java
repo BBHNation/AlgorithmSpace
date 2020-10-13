@@ -4,7 +4,20 @@ import java.util.HashSet;
 
 public class SolutionOf03 {
   public int findRepeatNumber(int[] nums) {
-    return 2;
+    for (int index = 0; index < nums.length; index++) {
+      while (nums[index] != index) {
+        /*
+        if exchange numbers equal, finding the result
+         */
+        if (nums[index] == nums[nums[index]]) {
+          return nums[index];
+        }
+        int temp = nums[index];
+        nums[index] = nums[temp]; // temp must <= (n - 1)
+        nums[temp] = temp;
+      }
+    }
+    return -1;
   }
 
   private int findRepeatNumberWithHashSet(int[] nums) {
@@ -19,4 +32,3 @@ public class SolutionOf03 {
     return -1;
   }
 }
-

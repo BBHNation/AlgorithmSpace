@@ -20,4 +20,15 @@ class SolutionOf03Test {
     Assertions.assertTrue(new HashSet<>(Arrays.asList(2, 3)).contains(repeatNumber));
   }
 
+  @Test
+  void findRepeatNumber__shouldReturn11_given012345678910111211() {
+    // given
+    int[] nums = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 11};
+
+    // when
+    int repeatNumber = new SolutionOf03().findRepeatNumber(nums);
+
+    // then
+    Assertions.assertEquals(11, repeatNumber);
+  }
 }

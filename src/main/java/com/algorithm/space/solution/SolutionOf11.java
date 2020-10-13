@@ -2,7 +2,7 @@ package com.algorithm.space.solution;
 
 public class SolutionOf11 {
   public int minArrayRight(int[] numbers) {
-    return minArrayLeft(numbers, 0, numbers.length - 1);
+    return minArrayRight(numbers, 0, numbers.length - 1);
   }
 
   /*
