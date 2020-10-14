@@ -2,17 +2,17 @@ package com.algorithm.space.solution;
 
 public class Solution10I {
         public int fib(int N) {
+            int a = 0, b = 1, c = 0;
             if(N <= 1){
                 return N;
             }
-            return fib_N(N);
-        }
-        public int fib_N(int N){
-            int[] cache = new int[N+1];
-            cache[1] = 1;
-            for(int i = 2; i <= N; i++){
-                cache[i] = cache[i - 1] + cache[i - 2];
+            else{
+                for(int i = 2; i <= N; i++){
+                    c = a + b;
+                    a = b;
+                    b = c;
+                }
+                return c;
             }
-            return cache[N];
         }
 }
