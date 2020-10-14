@@ -1,4 +1,4 @@
-package main.java.com.algorithm.space.solution;
+package com.algorithm.space.solution;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -18,8 +18,8 @@ public class Solution32I {
             return new int[0];
         }
         //使用队列从左到右遍历二叉树的每一层节点
-        LinkedList<TreeNode> queue = new LinkedList<>();
-        ArrayList<Integer> res = new ArrayList<>();
+        LinkedList<TreeNode> queue = new LinkedList();
+        ArrayList<Integer> res = new ArrayList();
         queue.offer(root);
         while(!queue.isEmpty()){
             TreeNode node = queue.poll();

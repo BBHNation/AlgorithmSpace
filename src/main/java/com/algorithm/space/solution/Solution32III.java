@@ -1,4 +1,4 @@
-package main.java.com.algorithm.space.solution;
+package com.algorithm.space.solution;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -14,13 +14,13 @@ public class Solution32III {
     }
     public List<List<Integer>> levelOrder(TreeNode root) {
         if(root == null){
-            return new ArrayList<>();
+            return new ArrayList();
         }
-        LinkedList<TreeNode> queue = new LinkedList<>();
-        List<List<Integer>> res = new ArrayList<>();
+        LinkedList<TreeNode> queue = new LinkedList();
+        List<List<Integer>> res = new ArrayList();
         queue.offer(root);
         while(!queue.isEmpty()){
-            LinkedList<Integer> list = new LinkedList<>();
+            LinkedList<Integer> list = new LinkedList();
             int len = queue.size();
             for(int i = 0; i < len; i++){
                 TreeNode node = queue.poll();

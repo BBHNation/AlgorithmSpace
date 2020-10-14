@@ -1,4 +1,4 @@
-package main.java.com.algorithm.space.solution;
+package com.algorithm.space.solution;
 
 import org.junit.jupiter.api.Test;
 

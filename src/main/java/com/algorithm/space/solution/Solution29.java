@@ -1,10 +1,10 @@
-package main.java.com.algorithm.space.solution;
+package com.algorithm.space.solution;
+
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Solution29 {
-    public List<Integer> res = new ArrayList<>();
+    public ArrayList<Integer> res = new ArrayList();
     public int[] spiralOrder(int[][] matrix) {
         if(matrix == null || matrix.length == 0 || matrix[0].length == 0){
             return new int[0];

@@ -1,9 +1,9 @@
-package main.java.com.algorithm.space.solution;
+package com.algorithm.space.solution;
 
+import com.algorithm.space.solution.Solution29;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class Solution29Test {
     @Test
