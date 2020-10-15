@@ -8,7 +8,7 @@ public class Solution10I {
             }
             else{
                 for(int i = 2; i <= N; i++){
-                    c = a + b;
+                    c = (a + b) % 1000000007;
                     a = b;
                     b = c;
                 }
