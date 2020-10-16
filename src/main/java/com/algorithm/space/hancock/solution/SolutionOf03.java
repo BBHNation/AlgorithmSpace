@@ -1,4 +1,4 @@
-package com.algorithm.space.solution;
+package com.algorithm.space.hancock.solution;
 
 import java.util.HashSet;
 

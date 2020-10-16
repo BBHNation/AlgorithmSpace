@@ -1,4 +1,4 @@
-package com.algorithm.space.solution.common;
+package com.algorithm.space.hancock.solution.common;
 
 
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.algorithm.space.solution;
+package com.algorithm.space.hancock.solution;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.algorithm.space.solution;
+package com.algorithm.space.hancock.solution;
 
 public class SolutionOf11 {
   public int minArrayRight(int[] numbers) {

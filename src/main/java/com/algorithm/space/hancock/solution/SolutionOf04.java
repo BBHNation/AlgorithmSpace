@@ -1,4 +1,4 @@
-package com.algorithm.space.solution;
+package com.algorithm.space.hancock.solution;
 
 public class SolutionOf04 {
   public boolean findNumberIn2DArray(int[][] matrix, int target) {

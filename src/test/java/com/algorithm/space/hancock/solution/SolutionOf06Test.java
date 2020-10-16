@@ -1,6 +1,6 @@
-package com.algorithm.space.solution;
+package com.algorithm.space.hancock.solution;
 
-import com.algorithm.space.solution.common.ListNode;
+import com.algorithm.space.hancock.solution.common.ListNode;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

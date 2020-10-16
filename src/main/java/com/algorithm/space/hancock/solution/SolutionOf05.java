@@ -1,4 +1,4 @@
-package com.algorithm.space.solution;
+package com.algorithm.space.hancock.solution;
 
 public class SolutionOf05 {
   public String replaceSpace(String input) {
