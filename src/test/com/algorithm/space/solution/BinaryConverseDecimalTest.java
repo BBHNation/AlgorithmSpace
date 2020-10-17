@@ -10,9 +10,10 @@ class BinaryConverseDecimalTest {
     void converse_should7_give111() {
         //given
         String num = "111";
+        int n = 2;
         //when
-        int res = new BinaryConverseDecimal().binaryConverse(num);
+        boolean res = new BinaryConverseDecimal().binaryConverse(num,n);
         //then
-        Assertions.assertEquals(7,res);
+        Assertions.assertTrue(res);
     }
 }
