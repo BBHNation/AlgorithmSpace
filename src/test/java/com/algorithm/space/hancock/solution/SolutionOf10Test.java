@@ -21,13 +21,13 @@ class SolutionOf10Test {
   }
 
   @Test
-  void fib_shouldReturn1134903170_givenInputIs45() {
-    calculateFib(45, 1134903170);
+  void fib_shouldReturn134903163_givenInputIs45() {
+    calculateFib(45, 134903163);
   }
 
   @Test
-  void fib_shouldReturn980107325_givenInputIs100() {
-    calculateFib(100, -980107325);
+  void fib_shouldReturn687995182_givenInputIs100() {
+    calculateFib(100, 687995182);
   }
 
   @Test
