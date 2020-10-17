@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 class SolutionOf15Test {
   @Test
-  void hammingWeight_should_given() {
+  void hammingWeight_shouldReturn2_givenInput2() {
     // given
     int n = 9;
 
