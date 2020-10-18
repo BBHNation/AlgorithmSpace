@@ -2,9 +2,7 @@ package com.algorithm.space.hancock.solution;
 
 public class SolutionOf17 {
   public int[] printNumbers(int n) {
-    initStringNumber(n);
-    // todo: 需要使用字符串加减
-    return new int[]{0};
+    return getIntsWithSimpleWay(n);
   }
 
   String initStringNumber(int n) {

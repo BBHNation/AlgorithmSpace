@@ -7,15 +7,15 @@ public class SolutionOf06 {
     int length = 0;
     ListNode pointer = head;
     while (pointer != null) {
-      pointer = pointer.getNext();
+      pointer = pointer.next;
       length ++;
     }
 
     int[] result = new int[length];
     pointer = head;
     while (pointer != null) {
-      result[--length] = pointer.getVal();
-      pointer = pointer.getNext();
+      result[--length] = pointer.val;
+      pointer = pointer.next;
     }
 
     return result;
