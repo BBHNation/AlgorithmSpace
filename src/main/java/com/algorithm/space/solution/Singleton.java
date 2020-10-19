@@ -65,20 +65,20 @@ package com.algorithm.space.solution;
 //用静态内部类实现单例模式，相比于前面的方式更巧妙
 //利用classloader的加载机制来实现懒加载，并保证构建单例的线程安全
 //但是无法防止利用反射来重复构建对象
-//public class Singleton {
-//    private Singleton(){}
-//    private static class LazyHolder{
-//        private static final Singleton INSTANCE = new Singleton();
-//    }
-//    private static Singleton instance = new Singleton();
-//
-//    public static Singleton getInstance(){
-//        return LazyHolder.INSTANCE;
-//    }
-//}
+public class Singleton {
+    private Singleton(){}
+    private static class LazyHolder{
+        private static final Singleton INSTANCE = new Singleton();
+    }
+    private static Singleton instance = new Singleton();
+
+    public static Singleton getInstance(){
+        return LazyHolder.INSTANCE;
+    }
+}
 
 //用枚举实现单例模式可以防止利用反射重复构建对象，但是并非懒加载，是在枚举类被加载的时候初始化的
-//enum语法糖的存在使JVM反射的方式获取枚举类的私有构造方法
+//enum语法糖的存在无法使JVM反射的方式获取枚举类的私有构造方法
 //public enum SingletonEnum {
 //    INSTANCE;
 //}
