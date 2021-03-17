@@ -1,6 +1,6 @@
 package com.algorithm.space.hancock.offer.solution;
 
-import com.algorithm.space.hancock.offer.solution.common.TreeNode;
+import com.algorithm.space.hancock.common.TreeNode;
 
 import java.util.Arrays;
 

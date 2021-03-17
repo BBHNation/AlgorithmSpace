@@ -1,4 +1,4 @@
-package com.algorithm.space.hancock.offer.solution.common;
+package com.algorithm.space.hancock.common;
 
 import org.assertj.core.api.Condition;
 

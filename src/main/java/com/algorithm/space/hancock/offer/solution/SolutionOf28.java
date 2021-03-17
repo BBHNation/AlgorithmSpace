@@ -1,6 +1,6 @@
 package com.algorithm.space.hancock.offer.solution;
 
-import com.algorithm.space.hancock.offer.solution.common.TreeNode;
+import com.algorithm.space.hancock.common.TreeNode;
 
 public class SolutionOf28 {
   public boolean isSymmetric(TreeNode root) {

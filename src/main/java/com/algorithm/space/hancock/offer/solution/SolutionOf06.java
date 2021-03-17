@@ -1,6 +1,6 @@
 package com.algorithm.space.hancock.offer.solution;
 
-import com.algorithm.space.hancock.offer.solution.common.ListNode;
+import com.algorithm.space.hancock.common.ListNode;
 
 public class SolutionOf06 {
   public int[] reversePrint(ListNode head) {

@@ -1,10 +1,8 @@
 package com.algorithm.space.hancock.offer.solution;
 
-import com.algorithm.space.hancock.offer.solution.common.TreeNode;
+import com.algorithm.space.hancock.common.TreeNode;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class SolutionOf07Test {
 

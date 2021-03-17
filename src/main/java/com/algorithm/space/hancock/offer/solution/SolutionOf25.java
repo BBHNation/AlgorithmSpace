@@ -1,6 +1,6 @@
 package com.algorithm.space.hancock.offer.solution;
 
-import com.algorithm.space.hancock.offer.solution.common.ListNode;
+import com.algorithm.space.hancock.common.ListNode;
 
 public class SolutionOf25 {
   public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

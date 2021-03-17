@@ -1,6 +1,6 @@
 package com.algorithm.space.hancock.offer.solution;
 
-import com.algorithm.space.hancock.offer.solution.common.TreeNode;
+import com.algorithm.space.hancock.common.TreeNode;
 
 public class SolutionOf27 {
   public TreeNode mirrorTree(TreeNode root) {

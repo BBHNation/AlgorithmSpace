@@ -1,6 +1,6 @@
 package com.algorithm.space.hancock.offer.solution;
 
-import com.algorithm.space.hancock.offer.solution.common.ListNode;
+import com.algorithm.space.hancock.common.ListNode;
 
 public class SolutionOf18 {
   public ListNode deleteNode(ListNode head, int val) {
