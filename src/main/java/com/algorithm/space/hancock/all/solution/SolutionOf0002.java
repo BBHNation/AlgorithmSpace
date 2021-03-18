@@ -2,7 +2,7 @@ package com.algorithm.space.hancock.all.solution;
 
 import com.algorithm.space.hancock.common.ListNode;
 
-public class SolutionOf00002 {
+public class SolutionOf0002 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carry = 0; // 进位
         ListNode head = new ListNode(0); // 结果变量

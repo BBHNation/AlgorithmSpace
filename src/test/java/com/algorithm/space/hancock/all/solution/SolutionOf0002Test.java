@@ -4,7 +4,7 @@ import com.algorithm.space.hancock.common.ListNode;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class SolutionOf00002Test {
+class SolutionOf0002Test {
     @Test
     void addTwoNumbers_shouldReturn807_given342Add564() {
         // given
@@ -12,7 +12,7 @@ class SolutionOf00002Test {
         ListNode l2 = generateList(4, 6, 5);
 
         // when
-        ListNode result = new SolutionOf00002().addTwoNumbers(l1, l2);
+        ListNode result = new SolutionOf0002().addTwoNumbers(l1, l2);
 
         // then
         assertIsEqual(result, generateList(8, 0, 7));
